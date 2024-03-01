@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+body{
+    margin :0;
+    background-color: #210002;
+    font-family: Poppins;
+    font-size: 15px;
+}
+.banner{
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+}
+.banner .bg{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    background-size: auto 100%;
+    background-position: center bottom;
+    transition: 0.1s;
+}
+.banner .bg-1{
+    background-image: url('img/0.png');
+}
+.banner .bg-2{
+    background-image: url('img/1.png');
+}
+.banner .bg-3{
+    background-image: url('img/2.png');
+}
+.banner .bg-4{
+    background-image: url('img/3.png');
+}
+.banner .bg-5{
+    background-image: url('img/4.png');
+}
+.banner .bg-6{
+    background-image: url('img/5.png');
+}
+.banner .bg-7{
+    background-image: url('img/6.png');
+}
+.banner .bg-8{
+    background-image: url('img/7.png');
+}
+.banner .bg-9{
+    background-image: url('img/8.png');
+}
+.banner  h1{
+    position: absolute;
+    top: 20%;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    font-size: 11rem;
+    font-family: 'Pacifico', cursive;
+    color: #fff;
+    top: -14px;
+}
+
+.tab{
+    height: 100vh;
+}
